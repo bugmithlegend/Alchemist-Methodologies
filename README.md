@@ -1,0 +1,1 @@
+**Here, I'll be representing my methodologies in all offensive security fields overall, especially my <strong>Bug Hunting Methodology</strong>.**
