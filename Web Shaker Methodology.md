@@ -2,9 +2,9 @@
 # SCS Shaker Methodology
 
 **Vulnerabilities selected**
-1. BROKEN AUTHENTICATION (BA) — Authentication testing  
-2. BROKEN SESSION MANAGEMENT (BSESS) — Session management testing  
-3. BROKEN ACCESS CONTROL (BAC)
+1. **BROKEN AUTHENTICATION (BA)** — Authentication testing  
+2. **BROKEN SESSION MANAGEMENT (BSESS)** — Session management testing  
+3. **BROKEN ACCESS CONTROL (BAC)**
 
 ---
 
@@ -127,11 +127,11 @@ Do alternative authentication channels (APIs, mobile apps, etc.) have weak or in
 
 **Can CAPTCHAs authentication/verify mechanisms be vulnerable to bypass?**
 - Test CAPTCHAs mechanisms. -- Login Forms, Verify Forms & any authentication channel requiring CAPTCHA.
-Arithmetic Based - Weak (Vulnerable)
-Text Based - Basic (Vulnerable)
-Image Based - Intermediate (Somewhat)
-reCAPTCHA v2 - Moderate to Strong (Somewhat)
-reCAPTCHA v3 - Very Strong (not Vulnerable)
+- Arithmetic Based - Weak (Vulnerable)
+- Text Based - Basic (Vulnerable)
+- Image Based - Intermediate (Somewhat)
+- reCAPTCHA v2 - Moderate to Strong (Somewhat)
+- reCAPTCHA v3 - Very Strong (not Vulnerable)
 
 **Does the application enforce strong login lockout mechanism during login authentication form?**
 - Test empty password with accounts in web proxies -- Login Forms.
